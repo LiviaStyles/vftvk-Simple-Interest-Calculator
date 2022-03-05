@@ -11,7 +11,9 @@ function compute()
   let x = document.getElementById("principal").value;
   let text;
   if (isNaN(x) || x < 1 ) {
-    alert("Enter a positive number")
+    alert("Enter a positive number");
+    //focus if invalid
+    document.getElementById("principal").focus();
   } else {
       //return results
     var principal = document.getElementById("principal").value;
