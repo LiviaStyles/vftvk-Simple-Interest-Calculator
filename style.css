@@ -1,4 +1,29 @@
-body {background-color:tan;}
-h1{color:green;}
 
+/*CSS required for result highlighting*/
+.highlight{
+    background-color: yellow;
+  }
+  /*changed font size and font-family to mimic original*/
+  body {
+    background-color:black;
+    font-family: verdana;
+    font-size: 11pt;
+  }
+  /*header 1 to grey*/
+h1{
+  color:grey;
 
+}
+/*changed margin: auto to center align maindiv*/
+.maindiv {
+background-color: white;
+color: black;
+width: 450px;
+padding: 20px;
+border-radius: 25px;
+margin: auto;
+}
+/*added innerdiv to add additional padding to calculator*/
+.innerdiv {
+padding: 0 30px;
+}
